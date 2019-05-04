@@ -6,4 +6,9 @@ def prime?(n)
     foundDivider = ((n % d) == 0) || foundDivider
     a.push(foundDivider)
   end
+  if a.include?(true) == true
+    true
+  else
+    false
+  end
 end
