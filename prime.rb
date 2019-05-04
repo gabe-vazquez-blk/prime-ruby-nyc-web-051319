@@ -6,8 +6,8 @@ def prime?(n)
     a.push(foundDivider)
   end
   if a.include?(true) == true
-    return false
+    false
   else
-    return true
+    true
   end
 end
